@@ -144,7 +144,7 @@ const signin = AsyncHandler(async (req, res) => {
     const options = {
         httpOnly: true,
         secure: true,
-        SameSite: "None"
+        sameSite: "None"
     }
 
     return res
